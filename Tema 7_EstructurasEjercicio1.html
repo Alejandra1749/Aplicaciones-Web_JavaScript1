@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num1 = parseInt(prompt("Introduce el primer número:"));
+        let num2 = parseInt(prompt("Introduce el segundo número:"));
+        if(num1 > num2){
+            let suma = num1 + num2;
+            document.write("La suma es: " + suma);
+            let resta = num1 - num2;
+            document.write("<br> La resta es: " + resta);
+        }
+        else{
+            let div = num2 / num1;
+            document.write("La división es: " + div);
+            let mult = num1 * num2;
+            document.write("<br> La multiplicación es: " + mult);
+        }
+    </script>
+</body>
+</html>

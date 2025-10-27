@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let entero=parseInt(prompt("Introduce un número entero:"));
+        if(entero>0){
+            if(entero>=100 && entero<=999){
+                document.write("El número tiene tres cifras");
+
+            }
+            else{
+                if(entero>=10 && entero<=99){
+                    document.write("El número tiene dos cifras");
+                }
+                else{
+                    document.write("El número tiene una cifra");
+                }
+            }
+        }
+        else{
+            document.write("El número debe ser positivo y tener hasta tres cifras");
+        }
+    </script>
+</body>
+</html>
